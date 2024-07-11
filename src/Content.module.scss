@@ -1,0 +1,31 @@
+.main {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  .description_conteiner {
+    margin-left: 15px;
+    .description_head {
+      span {
+        margin-right: 10px;
+      }
+      a {
+        color: silver;
+      }
+    }
+    .description_body {
+      h2 {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .description_date {
+        font-size: 10px;
+        font-weight: bold;
+      }
+      .description {
+        font-size: 10px;
+      }
+    }
+  }
+}
